@@ -1,0 +1,59 @@
+.container {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1a1a2e;
+  margin: 0 0 16px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.wagon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 12px 20px;
+  border: 1.5px solid #e0e0e0;
+  border-radius: 10px;
+  background: #fafafa;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 110px;
+}
+
+.wagon:hover {
+  border-color: #0052cc;
+  background: #f0f4ff;
+}
+
+.wagon.active {
+  border-color: #0052cc;
+  background: #0052cc;
+  color: #fff;
+}
+
+.wagonNum {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.wagonType {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.seats {
+  font-size: 12px;
+  opacity: 0.6;
+}
