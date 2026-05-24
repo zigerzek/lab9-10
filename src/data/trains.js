@@ -1,0 +1,75 @@
+export const trains = [
+  {
+    id: 1,
+    number: "IC 741",
+    from: "Київ",
+    to: "Львів",
+    departure: "2026-05-25T07:30:00",
+    duration: "5год 20хв",
+    wagons: [
+      { id: 1, type: "Купе", seats: 36 },
+      { id: 2, type: "Плацкарт", seats: 54 },
+      { id: 3, type: "СВ", seats: 18 },
+    ],
+  },
+  {
+    id: 2,
+    number: "IC 743",
+    from: "Київ",
+    to: "Одеса",
+    departure: "2026-05-25T09:00:00",
+    duration: "4год 40хв",
+    wagons: [
+      { id: 1, type: "Купе", seats: 36 },
+      { id: 2, type: "Купе", seats: 36 },
+    ],
+  },
+  {
+    id: 3,
+    number: "RE 120",
+    from: "Харків",
+    to: "Дніпро",
+    departure: "2026-05-25T11:15:00",
+    duration: "2год 10хв",
+    wagons: [
+      { id: 1, type: "Плацкарт", seats: 54 },
+      { id: 2, type: "Плацкарт", seats: 54 },
+    ],
+  },
+  {
+    id: 4,
+    number: "IC 89",
+    from: "Львів",
+    to: "Запоріжжя",
+    departure: "2026-05-25T14:00:00",
+    duration: "8год 30хв",
+    wagons: [
+      { id: 1, type: "СВ", seats: 18 },
+      { id: 2, type: "Купе", seats: 36 },
+      { id: 3, type: "Плацкарт", seats: 54 },
+    ],
+  },
+  {
+    id: 5,
+    number: "IC 201",
+    from: "Київ",
+    to: "Чернівці",
+    departure: "2026-05-25T16:45:00",
+    duration: "6год 55хв",
+    wagons: [
+      { id: 1, type: "Купе", seats: 36 },
+      { id: 2, type: "СВ", seats: 18 },
+    ],
+  },
+  {
+    id: 6,
+    number: "RE 55",
+    from: "Полтава",
+    to: "Київ",
+    departure: "2026-05-25T08:20:00",
+    duration: "3год 00хв",
+    wagons: [
+      { id: 1, type: "Плацкарт", seats: 54 },
+    ],
+  },
+];

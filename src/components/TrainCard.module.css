@@ -1,0 +1,109 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e8e8e8;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 4px 20px rgba(0, 82, 204, 0.12);
+  transform: translateY(-2px);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 18px;
+  color: #0052cc;
+  letter-spacing: 0.5px;
+}
+
+.duration {
+  font-size: 13px;
+  color: #666;
+  background: #f0f4ff;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+
+.route {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.city {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.time {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a1a2e;
+  line-height: 1;
+}
+
+.cityName {
+  font-size: 13px;
+  color: #888;
+}
+
+.arrow {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #0052cc;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: #d0d8ff;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #f0f0f0;
+}
+
+.date {
+  font-size: 13px;
+  color: #888;
+}
+
+.wagons {
+  font-size: 13px;
+  color: #555;
+  flex: 1;
+}
+
+.btn {
+  background: #0052cc;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.btn:hover {
+  background: #0041a8;
+}
